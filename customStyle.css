@@ -1,22 +1,4 @@
-#container {
-   position: relative;
-}
-
 .circle {
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  position: relative;
+  float: left;
 }   
-
-#circle1 {
-    margin-top: 20px;
-}
-
-#circle2 {
-    margin-top: 80px;
-}
-
-#circle3 {
-    margin-top: 170px;
-}
-
