@@ -1,5 +1,5 @@
 (function () {   																		// wrap in IIFE
-	var url = "https://api.myjson.com/bins/qowv"  										// created JSON, with circles in an array, "name", "color", "diameter"
+	var url = "https://api.myjson.com/bins/qowv";  										// created JSON, with circles in an array, "name", "color", "diameter"
 	var urlOriginal = "http://opslocal-c01.dotomi.com/update/local/swfs/circles.json";  // not working (tried callback) receiving Server DNS error possibly
 	var myData = $.getJSON(url, function(data) {										// get the data
 	            console.log(data);														// log received data for identifying key:value pairs
