@@ -1,4 +1,4 @@
 circles
 =======
 
-CT dev test
+this site is being hosted on github @  http://shehryarabbasi.github.io/circles/
