@@ -1,6 +1,6 @@
 (function () {   																		// wrap in IIFE
-	var url = "https://api.myjson.com/bins/qowv";  										// created JSON, with circles in an array, "name", "color", "diameter"
-	
+// 	var url = "https://api.myjson.com/bins/qowv";  										// created JSON, with circles in an array, "name", "color", "diameter"
+	var url = "https://api.npoint.io/47c68c769a4bc36298c7";
 	var myData = $.getJSON(url, function(data) {										// get the data
 	            console.log(data);														// log received data for identifying key:value pairs
 	    $.each(data.circles, function(i, item) {										// iterate through the items in the array
