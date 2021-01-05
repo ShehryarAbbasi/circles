@@ -15,7 +15,7 @@
             $("#"+item.name).css(circleProperties);										// set CSS styles for each div id
 	    });
 	    binder();																		// call the click event handler
-     	setInterval(move, 5000);														// call this function every 5 seconds for continuous animation
+     	setInterval(move, 500);														// call this function every 5 seconds for continuous animation
 	});
 
 	function binder() {
